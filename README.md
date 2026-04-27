@@ -19,22 +19,22 @@ Client-side board view built with Vite + Vanilla JS.
 
 ### Structure:
 vanilla/
-├── index.html
-├── package.json
-├── public/
-│   └── assets/
-│       ├── background.svg
-│       ├── logo.jpg
-│       ├── reset.svg
-│       └── sprites.svg
-├── src/
-│   ├── index.js
-│   ├── index.css
-│   └── modules/
-│       ├── animations.js
-│       ├── validation.js
-│       └── functions.js
-└── dist/ (generated after build)
+|-- index.html
+|-- package.json
+|-- public/
+|   |-- assets/
+|       |-- background.svg
+|       |-- logo.jpg
+|       |-- reset.svg
+|       |-- sprites.svg
+|-- src/
+|   |-- index.js
+|   |-- index.css
+|   |-- modules/
+|       |-- animations.js
+|       |-- validation.js
+|       |-- functions.js
+|-- dist/ (generated after build)
 
 ### NPM Commands
 - `npm run dev` (to debug)
