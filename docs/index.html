@@ -1,0 +1,82 @@
+<!Doctype html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>My_Web_App</title>
+  <script type="module" crossorigin src="/assets/index-GSoRUZUW.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CPKxB7AN.css">
+</head>
+<body>
+    <form id='my_form'>
+        <div class='class_header_row'>
+            <img class='class_logo' src='/assets/logo.jpg' alt='logo'>
+            <span class='class_header'>Web App</span>
+            <img id='my_reset_icon' class='icon' src='/assets/reset.svg' alt='reset'>
+        </div>
+
+        <div class='class_row'>
+            <div class='class_input'>
+                <label for='my_number'>Number:</label>
+                <input type='number' id='my_number' name='my_number' placeholder='Number between 1 & 10'>
+                <div class='class_error'>Between 1 and 10</div>
+            </div>
+            <div class='class_input'>
+                <label for='my_text'>Text:</label>
+                <input type='text' id='my_text' name='my_text' placeholder='Text'>
+                <div class='class_error'>Upper, lower and special char</div>
+            </div>
+        </div>
+        <div class='class_row'>
+            <div class='class_input'>
+                <label for='my_checkbox'>Checkbox:</label>
+                <input type='checkbox' id='my_checkbox' name='my_checkbox'>
+                <div class='class_error'></div>
+            </div>
+            <div class='class_input'>
+                <label for='my_datetime'>Date:</label>
+                <input type='datetime-local' id='my_datetime' name='my_datetime'>
+                <div class='class_error'>Last 4 weeks</div>
+            </div>
+        </div>
+        <div class='class_row'>
+            <div class='class_input'>
+                <div class='class_radio_group'>
+                    <label for='my_radio_1'>Radio 1:</label>
+                    <input type='radio' id='my_radio_1' name='my_radio' value='Radio 1'>
+                    <label for='my_radio_2'>Radio 2:</label>
+                    <input type='radio' id='my_radio_2' name='my_radio' value='Radio 2'>
+                    <label for='my_radio_3'>Radio 3:</label>
+                    <input type='radio' id='my_radio_3' name='my_radio' value='Radio 3'>
+                </div>
+                <div class='class_error'></div>
+            </div>
+        </div>
+        <div class='class_row'>
+            <div class='class_input'>
+                <label for='my_select'>Dropdown:</label>
+                <select id='my_select' name='my_select' required>
+                    <option value=''>Select a multiple</option>
+                    <option value='π'>π</option>
+                    <option value='e'>e</option>
+                    <option value='Φ'>Φ</option>
+                </select>
+                <div class='class_error'></div>
+            </div>
+            <div class='class_input'>
+                <label for='my_file'>File:</label>
+                <input type='file' id='my_file' name='my_file'>
+                <div class='class_error'>1 required</div>
+            </div>
+        </div>
+        <div class='class_row'>
+            <button id='my_submit_button' type='button' disabled>Submit</button>
+        </div>
+        <div class='class_result_div'>
+            <table id='my_result_table'></table>
+            <svg id='my_result_svg'> <use xlink:href='/assets/sprites.svg#sprite_thumb'></use></svg>
+        </div>
+        <div class='class_timestamp'>27/04/26 14:25</div>
+    </form>
+</body>
+</html>
